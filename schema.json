@@ -1,0 +1,682 @@
+{
+  "BigQuery Schema": [
+      {
+        "mode": "NULLABLE",
+        "name": "resortAddress",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "lgTrailMapURL",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "resortCovidPage",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "covidPassProtection",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "covidSocialDistancingRequired",
+        "type": "INTEGER"
+      },
+      {
+        "description": "bq-datetime",
+        "mode": "NULLABLE",
+        "name": "covidUpdatedOn",
+        "type": "TIMESTAMP"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "numberTerrainParksOpen",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "terrainParkLocation",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "terrainParkOpen",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "weekdayHours",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "openDownHillAcres",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "openDownHillMiles",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "openDownHillTrails",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "avgBaseDepthMin",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "primarySurfaceCondition",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "newSnowMax",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "snowLast48Hours",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "maxOpenDownHillAcres",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "maxOpenDownHillTrails",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "resortPhotos2",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "snowMaking",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "xcSkiingTotalKM_Open",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "tubingLanes",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "lastSnowFallAmount",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "nightGroomingPerc",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "nightSkiing",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "nightSkiingTrails",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "maxXCSkiTrails",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "xcSkiingTrails",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "highLiftElevation",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "snowMakingNumber",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "nightGrooming",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "snowPhone",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "resortName",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "reservationPhone",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "xcSkiingSkatingKM",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "seasonTotal",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "verticalDrop",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "openDownHillLifts",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "walkingTrails",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "timezone",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "prevSnowFallAmount",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "lowBaseElevation",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "maxOpenDownHillLifts",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "numberExpertTrails",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "avgBaseDepthMax",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "numberAdvancedTrails",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "numberIntermediateTrails",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "covidPassProtectionPage",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "forecastBaseTemp",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "forecastTopTemp",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "forecastWeather",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "numberBeginnerTrails",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "webCamLink",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "lastSnowFallDate",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "SnoCountryResortLink",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "longitude",
+        "type": "FLOAT"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "resortYouTube",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "resortTwitter",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "newSnowMin",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "operatingStatus",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "weatherToday_WindDirection",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "weatherDay4_Temperature_Low",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "predictedSnowFall_7days",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "covidPrePurchaseDayLiftTicketsRecommended",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "Roads",
+        "type": "STRING"
+      },
+      {
+        "description": "bq-datetime",
+        "mode": "NULLABLE",
+        "name": "reportDateTime",
+        "type": "TIMESTAMP"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "weatherToday_WindSpeed",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "weatherDayAfterTomorrow_Sunrise",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "predictedSnowFall_48Hours",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "tnTrailMapURL",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "resortPhotos",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "weatherDay5_Sunset",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "logo",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "weatherDay5_WindDirection",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "weatherDay5_WindSpeed",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "xcSkiing",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "tubingHours",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "resortFacebook",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "weatherDay5_Condition",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "prevSnowFallDate",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "weatherDay5_Temperature_High",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "predictedSnowFall_24Hours",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "nightGroomingNumber",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "covidReservationsRequiredPage",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "resortStatus",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "weatherDay5_Temperature_Low",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "secondarySurfaceCondition",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "weatherDayAfterTomorrow_Temperature_High",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "weatherDay4_Sunset",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "weatherDay4_WindDirection",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "covidSanitizationStationsAvailable",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "weatherDay4_Condition",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "weatherDay4_Sunrise",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "numberTerrainParkFeatures",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "Tubing",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "weatherDay4_WindSpeed",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "weatherDayAfterTomorrow_Sunset",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "weatherToday_Temperature_Low",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "weatherDayAfterTomorrow_WindDirection",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "longestTrailLength",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "weatherTomorrow_Sunset",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "predictedSnowFall_72Hours",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "resortType",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "weatherDayAfterTomorrow_WindSpeed",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "weatherTomorrow_Sunrise",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "weatherDayAfterTomorrow_Condition",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "weatherDayAfterTomorrow_Temperature_Low",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "weatherTomorrow_WindDirection",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "latitude",
+        "type": "FLOAT"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "weatherTomorrow_WindSpeed",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "state",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "covidReservationsRequired",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "maxOpenDownHillMiles",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "weatherTomorrow_Condition",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "weekendHours",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "openDownHillPercent",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "nightSkiingLifts",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "weatherTomorrow_Temperature_Low",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "snowMakingPerc",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "weatherToday_Condition",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "weatherToday_Sunrise",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "snowComments",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "weatherDay5_Sunrise",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "weatherDay4_Temperature_High",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "country",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "longestTrail",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "weatherToday_Sunset",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "covidMaskRequired",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "webSiteLink",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "id",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "weatherToday_Temperature_High",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "xcSkiingKM",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "generalEmail",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "weatherTomorrow_Temperature_High",
+        "type": "INTEGER"
+      }
+    ]
+}
+
